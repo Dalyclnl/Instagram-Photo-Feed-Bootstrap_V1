@@ -1,8 +1,10 @@
-.body{
+
+
+body{
     margin: 5px;
     padding: 10px;
     font-family:Arial, Helvetica, sans-serif;
-    background:whitesmoke;
+    background:rgba(216, 243, 245, 0.918);
     padding: auto;
     text-align:center;
     }
@@ -74,3 +76,6 @@
     border: whitesmoke 1px solid ;
     }
     
+    .btn btn ms-5{
+        background-color: rgba(8, 8, 250, 0.459);
+    }
