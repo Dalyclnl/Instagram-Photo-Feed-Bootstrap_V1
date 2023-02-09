@@ -1,50 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
-    
-    <title>Bootstrap Project</title>
-  </head>
 
-  <body class=" ">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
 
-    <div class="container bg-white">
+  <title>Bootstrap Project</title>
+</head>
 
-        <!--NAV-->
+<body class=" ">
 
-      
-       <div class="nav nav-bar my-3 py-3 bg-light">
-         <div class="col-8 pt-2 ms-5"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</div>
-        <div class="col-md-2">
-          <button type="button" class="btn btn ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal"> new post</button>
-        </div>
-        <div class="col-md-1">
-           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Accesibility</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
-              </ul>
-          </div>
-       </div>
+  <div class="container bg-white">
+
+    <!-- //<-----------nav--bar------------->
+
+
+    <div class="nav nav-bar my-3 py-3 bg-light">
+      <div class="col-8 pt-2 ms-5"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal"> new
+          post</button>
       </div>
+      <div class="col-md-1">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
 
-      <!-- Modal -->
 
-<!-- 
+
+
+    <ul class="nav nav-bar nav-tabs justify-content-center mt-2">
+      <li class="nav-item">
+        <a class="nav-link link-dark active" href="segunda.html"><i class="fa-solid fa-table-cells"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><i class="fa-solid fa-square"></i>
+      </li>
+    </ul>
+
+    <!-- grid con 3 imagenes  by row -->
+    <div class="container text-center">
+      <div class="row row-cols-3 row-col-md-6">
+        <div class="row-col-md-6">
+          <div class="p-3">
+          <img
+        src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+            </div>
+        </div>
+        <div class="row-col-md-6">
+          <div class="p-3">
+            <img
+        src="https://images.pexels.com/photos/834894/pexels-photo-834894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+           </div>
+        </div>
+        <div class="row-col-md-6">
+          <div class="p-3">
+            <img
+        src="https://images.pexels.com/photos/53214/trekking-hiking-group-alpine-53214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+          </div>
+        </div>  
+      </div>
+    </div>        
+    <div class="row row-cols-3 row-col-md-6">
+      <div class="row-col-md-6">
+        <div class="p-3">
+        <img
+      src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+          </div>
+      </div>
+      <div class="row-col-md-6">
+        <div class="p-3">
+          <img
+      src="https://images.pexels.com/photos/834894/pexels-photo-834894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+         </div>
+      </div>
+      <div class="row-col-md-6">
+        <div class="p-3">
+          <img
+      src="https://images.pexels.com/photos/53214/trekking-hiking-group-alpine-53214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+        </div>
+      </div>  
+    </div>
+  </div>        
+  <div class="row row-cols-3 row-col-md-6">
+    <div class="row-col-md-6">
+      <div class="p-3">
+      <img
+    src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+        </div>
+    </div>
+    <div class="row-col-md-6">
+      <div class="p-3">
+        <img
+    src="https://images.pexels.com/photos/834894/pexels-photo-834894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+       </div>
+    </div>
+    <div class="row-col-md-6">
+      <div class="p-3">
+        <img
+    src="https://images.pexels.com/photos/53214/trekking-hiking-group-alpine-53214.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    class="img-fluid" style="width: 300px; height: 250px; object-fit: cover;">
+      </div>
+    </div>  
+  </div>
+</div>        
+
+
+    <!------- modal------ -->
+
+    <!-- 
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -68,58 +155,7 @@
         </div>
       </div>
 
-    
-    
-    layout buttons -->
 
-
-     <ul class="nav nav-bar nav-tabs justify-content-center mt-2">
-      <li class="nav-item">
-          <a class="nav-link link-dark active" href ="segunda.html"><i class="fa-solid fa-table-cells"></i></a>
-      </li>
-       <li class="nav-item">
-          <a class="nav-link" href="index.html"><i class="fa-solid fa-square"></i>
-      </li>
-    </ul>
-
-
-
-    <!--BODY GRID-->
-  
-    <div class="row mt-4">
-      <div class="col-md-4 col-sm-4">
-        <img src="https://www.istockphoto.com/es/foto/distrito-financiero-de-santiago-de-chile-gm1194569634-340204110"  class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <img src="https://media.istockphoto.com/id/518041239/es/foto/torres-del-paine-monta%C3%B1a-patagonia-chile.jpg?s=612x612&w=0&k=20&c=RzZScn_KwgUZzG_-hNwrIowMWrbV5btULIVZb4889Ws="  class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <img src="https://www.istockphoto.com/es/foto/torre-de-la-iglesia-de-cariquima-cerca-de-colchane-en-la-regi%C3%B3n-de-tarapac%C3%A1-en-las-gm1050838324-280972549" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="col-md-4 col-sm-4">
-        <img src="https://media.istockphoto.com/id/1073163000/es/foto/vista-a%C3%A9rea-de-valpara%C3%ADso-con-iglesia-lutheran-del-cerro-carcel-colina-valpara%C3%ADso-chile.jpg?s=612x612&w=0&k=20&c=7EBAJyuPT0glJsfiS9herFaD0DPmr4xoJxaVBmWQ3YU=" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <img src="https://www.istockphoto.com/es/foto/arica-en-chile-gm462297061-31963716" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <img src="https://media.istockphoto.com/id/1250109672/es/foto/palafitos-stilt-houses-castro-isla-chiloe-chile.jpg?s=612x612&w=is&k=20&c=8kOW9OFK6PFxL0TKFL1hfRIEXJ7pqOUZVBaUaT4CBvE=" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      </div>
-       <div class="row my-4 ">
-      <div class="col-md-4 col-sm-4">
-        <img src="https://media.istockphoto.com/id/1069750480/es/foto/vista-a%C3%A9rea-de-puerto-varas-con-iglesia-del-sagrado-coraz%C3%B3n-y-volc%C3%A1n-osorno-puerto-varas-chile.jpg?s=1024x1024&w=is&k=20&c=lfa_ilc-xvuUKXQVUbHhLe3pRUt560B7BscqKiW0Iu0=" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <img src="https://media.istockphoto.com/id/686442610/es/foto/horizonte-de-puerto-montt.jpg?s=612x612&w=is&k=20&c=mA8xlYti_K-z8EKJsYZ7PAJH0IS0_x3IwPbEAQbrgmg=" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      <div class="col-md-4 col-sm-4">
-        <img src="https://www.istockphoto.com/es/foto/volc%C3%A1n-lascar-por-san-pedro-de-atacama-en-la-frontera-entre-chile-y-bolivia-gm859292674-141960405?phrase=ciudades%20en%20chile" class="img-fluid" style="width: 20px; height: 20px; object-fit: cover;">
-      </div>
-      </div>
-   
 
 </div>
 
