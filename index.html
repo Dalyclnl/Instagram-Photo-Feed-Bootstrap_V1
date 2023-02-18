@@ -13,33 +13,41 @@
   <title>Bootstrap Project</title>
 </head>
 
-<body class=" ">
+<body class="">
 
   <div class="container bg-white">
 
     <!-- //<-----------nav--bar------------->
 
-    <div class="nav nav-bar my-3 py-3 bg-light">
-      <div class="col-8 pt-2 ms-5"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</div>
-      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#postModal">
-       Create new post
-      </button>
-      <div class="col-md-1">
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-            data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><a class="dropdown-item" href="#">Accesibility</a></li>
-            <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
-          </ul>
+    <div class="nav nav-bar my-3 py-3 bg-light d-flex">
+      <div class="col-8 d-flex justify-content-left align-items-center">
+        <i class="fa fa-instagram"></i>
+        <h1>Instagram</h1>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#postModal">
+          Create new post
+        </button>
+        <div class="col-md-1">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accesibility</a></li>
+              <li><a class="dropdown-item" href="#">Privacy and data</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </div>  
+
+    
+  
 
    <!-- Modal -->
-    <div class="modal fade" id="postModal" tabindex="-1" aria-labelledby="postModalLabel" aria-hidden="true">
+    <div class="modal fade" id="postModal" tabindex="-1" aria-labelledby="postModalLabel">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -50,17 +58,21 @@
             <p>Caption</p>
               <div>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>        
+             </div>  
+            <div class="d-flex start ">
+              <button type="button" class="btn btn-outline-secondary  me-md-2">
+                <i class="fa-solid fa-camera align-self-center"></i> 
+              </button>
+              <button type="button" class="btn btn-outline-secondary ">
+                <i class="fa-solid fa-location-dot align-self-center"></i>
+              </button> 
+            </div>          
           </div>
-          <div class="modal-footer d-flex justify-content-between">
-            <div>
-              <i class="fa-solid fa-location-dot align-self-center"></i>
-              <i class="fa-solid fa-camera align-self-center"></i>
-            </div>
-                <div>
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-success">Publish</button>
-                </div>
+          <div class="modal-footer" >
+             <div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Publish</button>
+             </div>
           </div>
         </div>
       </div>
@@ -69,10 +81,10 @@
 
     <ul class="nav nav-bar nav-tabs justify-content-center mt-2">
       <li class="nav-item">
-        <a class="nav-link link-dark active" href="index_2.html"><i class="fa-solid fa-table-cells"></i></a>
+        <a class="nav-link link-dark active" href="index.html"><i class="fa-solid fa-table-cells"></i></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html"><i class="fa-solid fa-square"></i>
+        <a class="nav-link" href="index_2.html"><i class="fa-solid fa-square"></i>
       </li>
     </ul>
 

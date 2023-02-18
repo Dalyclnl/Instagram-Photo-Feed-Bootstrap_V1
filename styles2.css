@@ -1,0 +1,21 @@
+.body{
+    background-color: aquamarine;
+}
+
+
+.container bg-white{
+    width: 800px;
+    height:auto;
+   padding: 20px;
+  } 
+  #postModal2 {
+    text-align: left;
+    }
+    
+    .modal-body .d-flex {
+      margin-top: 10px;
+      display: flex; 
+      text-align: left;
+     
+    }
+     

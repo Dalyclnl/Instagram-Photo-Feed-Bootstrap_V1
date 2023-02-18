@@ -6,38 +6,35 @@ body{
   background:rgba(216, 243, 245, 0.918);
   padding: auto;
   text-align:center;
-  width: 750px;
+  width: auto;
   height: auto;
   }
-
-.header{
-  background-color: white;
-  padding: inline start 1px;
-  margin-top:2px; 
-  }
-
-.box{
-background:white;         
-width: 750px;
-height:auto;
-margin-bottom :20px; 
-}
 
 .head{
 margin-top:2px;
 padding:10px;
 height: 20px;
 text-align: left;
-border: whitesmoke 1px solid  ;
+border: whitesmoke 1px solid;
+font-size: 20px
 }
-    
+
+.fa fa-instagram{
+  font-size: x-large;
+}
+.container bg-white{
+  width: 800px;
+  height:auto;
+ padding: 20px;
+} 
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-gap: 2px;
+  grid-gap: 1px;
+  
 }
-
 .grid-item {
   display: flex;
   align-items: center;
@@ -45,6 +42,21 @@ border: whitesmoke 1px solid  ;
   height: 100%;
   overflow: hidden;
 }
+.row g-3{
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.modal-body p {
+text-align: left;
+}
+
+.modal-body .d-flex {
+  margin-top: 10px;
+  display: flex; 
+  text-align: left;
+ 
+}
+
 
 img {
   max-width: 100%;
@@ -52,9 +64,7 @@ img {
   object-fit: cover;
 }
 
-.fa-solid fa-location-dot{
-  align-items: left;
+
+.btn btn ms-5{
+    background-color: rgba(8, 8, 250, 0.459);
 }
-  .btn btn ms-5{
-      background-color: rgba(8, 8, 250, 0.459);
-  }
