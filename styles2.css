@@ -1,21 +1,83 @@
-.body{
-    background-color: aquamarine;
-}
-
-
-.container bg-white{
-    width: 800px;
+body{
+  margin: 5px;
+  padding: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  background:rgba(214, 244, 247, 0.534);
+  padding: auto;
+  text-align:center;
+  }
+  
+  .container bg-white{
+    width: auto;
     height:auto;
-   padding: 20px;
   } 
-  #postModal2 {
+  
+
+  .flex-container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 20px;
+  color: black;
+  }
+  
+  .box{
+  background:white;         
+  width: 650px;
+  height: 600px;
+  margin-bottom :20px; 
+  }
+  
+  .head{
+  padding: 20px;
+  height: 20px;
+  text-align: left;
+  border: whitesmoke 1px solid  ;
+  }
+  
+  .head h2{
+  float: left;
+  font-size: 18px;
+  
+  }
+  
+  .date{
+  float:right; 
+  position:relative;
+  height: 20px;
+  padding: 20px;
+  }
+  
+  .photo{
+  width: 650px;
+  height: 500px;
+  padding-top: 25px;
+  padding-left: 0;
+  padding-right: 0 ;
+  }
+  
+  img{
+  object-fit:cover;
+  width:100%;
+  height: 100%;
+  }
+
+.modal-body p {
+  text-align: left;
+  }
+  
+  .modal-body .d-flex {
+    margin-top: 10px;
+    display: flex; 
     text-align: left;
-    }
     
-    .modal-body .d-flex {
-      margin-top: 10px;
-      display: flex; 
-      text-align: left;
-     
-    }
-     
+  }
+  .descripcion {
+  word-wrap: break-word;  
+  flex-grow: auto;
+  padding: 20px;
+  height: 20px;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif;
+  }
