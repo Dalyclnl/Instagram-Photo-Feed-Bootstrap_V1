@@ -6,28 +6,22 @@ body{
   background:rgba(216, 243, 245, 0.918);
   padding: auto;
   text-align:center;
-  width: auto;
-  height: auto;
   }
 
-.head{
-margin-top:2px;
-padding:10px;
-height: 20px;
-text-align: left;
-border: whitesmoke 1px solid;
-font-size: 20px
-}
-
-.i {
-  font-size:500px;
-}
 .container bg-white{
-  width: 800px;
+  width: auto;
   height:auto;
  padding: 20px;
 } 
 
+.nav {
+  border-radius: 0;
+  overflow: hidden;
+}
+.fa-instagram {
+  font-size: 24px;
+  line-height: 1;
+}
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -42,10 +36,7 @@ font-size: 20px
   height: 100%;
   overflow: hidden;
 }
-.row g-3{
-  padding-top: 5px;
-  padding-bottom: 30px;
-}
+
 .modal-body p {
 text-align: left;
 }
