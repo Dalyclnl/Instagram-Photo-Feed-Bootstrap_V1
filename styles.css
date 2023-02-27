@@ -16,7 +16,6 @@ body{
 
 .nav {
   border-radius: 0;
-  overflow: hidden;
 }
 .fa-instagram {
   font-size: 24px;
@@ -36,15 +35,19 @@ body{
   height: 100%;
   overflow: hidden;
 }
-
+.modal{
+  color: black; 
+}
 .modal-body p {
 text-align: left;
+color: black;
 }
 
 .modal-body .d-flex {
   margin-top: 10px;
   display: flex; 
   text-align: left;
+  color: black;
  
 }
 
@@ -52,9 +55,4 @@ img {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-}
-
-
-.btn btn ms-5{
-    background-color: rgba(8, 8, 250, 0.459);
 }

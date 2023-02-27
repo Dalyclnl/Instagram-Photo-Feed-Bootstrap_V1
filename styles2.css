@@ -6,6 +6,7 @@ body{
   background:rgba(214, 244, 247, 0.534);
   padding: auto;
   text-align:center;
+  
   }
   
 .container bg-white{
@@ -15,22 +16,56 @@ body{
   background-color: gainsboro;
 } 
 .card-header{
+  padding: 1px;
+  height: 60px;
   background: none;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: medium;
 }
+.card-header h2 {
+  color: black;
+  font-size: x-large;
+  text-align: left;
+}
+
+.card-header p {
+  text-align: left;
+
+}
+
+.card-header .fecha {
+  text-align: right;
+  font-size: medium;
+}
+
 .card-footer{
+  color: black;
   background: none;
-  height: 40px;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+  height: 80px; 
+}
+
+.card-footer h3{
+  font-size: medium;
+  text-align: left;
+}
+
+.card-footer p{
+text-align: left;
+color: black;
+font-size: medium;
 }
 
 .card{
-margin-top: 20px;
+margin-top: 25px;
+width: auto;
+height: auto;
 
 }
+
 .nav {
   border-radius: 0;
-  overflow: hidden;
 }
 
 .fa-instagram {
@@ -61,19 +96,23 @@ height: auto;
 }
 
 .img-fluid{
-object-fit:cover;
 padding: 0;
 margin: 0;
 }
 
+.modal{
+  color: black;
+}
 
 .modal-body p {
 text-align: left;
+color: black;
 }
 
 .modal-body .d-flex {
   margin-top: 10px;
   display: flex; 
   text-align: left;
+  color: black; 
   
 }
